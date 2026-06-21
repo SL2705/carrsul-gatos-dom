@@ -34,7 +34,7 @@ Una aplicación de carrusel de imágenes moderna, minimalista y responsive con n
 - Se pausa al hacer hover sobre el carrusel
 - Se reinicia al interactuar con el carrusel
 
-## 🔧 API y Métodos
+## Métodos
 
 ### Clase Carrusel
 
