@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Gatos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Galería Visual de Gatos</h1>
+        
+        <div class="carrusel-container">
+            <div class="carrusel">
+                <div class="carrusel-track" id="carruselTrack">
+                    <div class="carrusel-item active" data-index="0">
+                        <img src="images/1.jpg" alt="Imagen 1" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">01</span> 
+                        </div>
+                    </div>
+                    <div class="carrusel-item" data-index="1">
+                        <img src="images/2.jpg" alt="Imagen 2" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">02</span> 
+                        </div>
+                    </div>
+                    <div class="carrusel-item" data-index="2">
+                        <img src="images/3.jpg" alt="Imagen 3" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">03</span> 
+                        </div>
+                    </div>
+                    <div class="carrusel-item" data-index="3">
+                        <img src="images/4.jpg" alt="Imagen 4" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">04</span> 
+                        </div>
+                    </div>
+                    <div class="carrusel-item" data-index="4">
+                        <img src="images/5.jpg" alt="Imagen 5" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">05</span> 
+                        </div>
+                    </div>
+                    <div class="carrusel-item" data-index="5">
+                        <img src="images/6.jpg" alt="Imagen 6" loading="lazy">
+                        <div class="caption">
+                            <span class="caption-number">06</span> 
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carrusel-btn prev-btn" id="prevBtn" aria-label="Imagen anterior">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M15 18l-6-6 6-6"/>
+                    </svg>
+                </button>
+                
+                <button class="carrusel-btn next-btn" id="nextBtn" aria-label="Siguiente imagen">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 18l6-6-6-6"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="indicators" id="indicators" role="tablist" aria-label="Indicadores de navegación">
+                <button class="dot active" data-index="0" role="tab" aria-label="Imagen 1" aria-selected="true"></button>
+                <button class="dot" data-index="1" role="tab" aria-label="Imagen 2" aria-selected="false"></button>
+                <button class="dot" data-index="2" role="tab" aria-label="Imagen 3" aria-selected="false"></button>
+                <button class="dot" data-index="3" role="tab" aria-label="Imagen 4" aria-selected="false"></button>
+                <button class="dot" data-index="4" role="tab" aria-label="Imagen 5" aria-selected="false"></button>
+            </div>
+            
+            <div class="counter" id="counter" aria-live="polite">01 / 05</div>
+        </div>
+    </div>
+    
+    <script src="js/carrusel.js"></script>
+    <script src="js/dom-tree.js"></script>
+</body>
+</html>
