@@ -2,6 +2,9 @@
 
 Una aplicación de carrusel de imágenes moderna, minimalista y responsive con navegación por botones e indicadores.
 
+### Link de visualizacion de la aplicacion web:
+https://sl2705.github.io/carrsul-gatos-dom/
+
 ## Características
 
 - **5 imágenes** en carrusel
@@ -45,3 +48,8 @@ carrusel.goTo(index) // Ir a una imagen específica
 carrusel.startAutoPlay() // Iniciar autoplay
 carrusel.stopAutoPlay()  // Detener autoplay
 carrusel.destroy()  // Limpiar recursos
+```
+
+##
+#### Proyecto Desarrollado por Victorino Triana Leonardo Antonio - Grupo: IDSM21 
+#### Materia: Desarrollo Web Profesional
