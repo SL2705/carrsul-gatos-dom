@@ -15,12 +15,6 @@ Una aplicación de carrusel de imágenes moderna, minimalista y responsive con n
 - **Interfaz moderna**: Diseño minimalista con efectos de transición
 
 
-##  Instalación y Uso
-
-1. **Clonar o descargar** el proyecto
-2. **Agregar imágenes**: Coloca tus imágenes en la carpeta `images/` con los nombres `1.jpeg`, `2.jpeg`, `3.jpeg`, `4.jpeg`, `5.jpeg`
-3. **Abrir**: Abre `index.html` en tu navegador
-
 ##  Funcionalidades
 
 ### Navegación
